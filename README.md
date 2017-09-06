@@ -6,7 +6,7 @@ Uses a number of open source projects to work properly:
 * [MDBootstrap](https://mdbootstrap.com/) - Powerful and free Material Design UI KIT
 * [Material Design](https://material.io/) - Awesome design language 
 * [Twitter Bootstrap](https://getbootstrap.com/) - Great UI boilerplate for modern web apps
-## Link Page:  
+## Link Page
 Enlace
 ## Licencia
 MIT
