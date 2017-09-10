@@ -1,4 +1,4 @@
-[![Mockup Web](https://github.com/DavidAlgas/web_scout/blob/master/img/asset.JPG)](https://mdbootstrap.com/material-design-for-bootstrap/)
+[![Mockup Web](https://github.com/DavidAlgas/web_scout/blob/master/img/asset.JPG)]
 # Web Grupo Scout LaSalle 509
 ________
 ### Tech
