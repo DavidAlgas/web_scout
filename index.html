@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="full-height">
+<html lang="es" class="full-height">
 
 <head>
     <meta charset="utf-8">
@@ -9,6 +9,8 @@
     <link rel="shortcut icon" href="img/favicon.ico" />
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Lightbox for Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.css" />
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
@@ -53,7 +55,8 @@
                 <div class="container">
                     <ul>
                         <li>
-                            <h1 class="h1-responsive font-bold wow fadeInDown" data-wow-delay="0.2s">SIEMPRE LISTOS</h1></li>
+                            <h1 class="h1-responsive font-bold wow fadeInDown" data-wow-delay="0.2s">SIEMPRE LISTOS</h1>
+                        </li>
                         <li>
                             <p class="lead mt-4 mb-5 wow fadeInDown">“La mejor forma de vencer las dificultades es atacándolas con una magnífica sonrisa.”</p>
                         </li>
@@ -76,11 +79,11 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit explicabo assumenda eligendi ex exercitationem harum deleniti quaerat beatae ducimus dolor voluptates magnam, reiciendis pariatur culpa tempore quibusdam quidem, saepe eius.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit explicabo assumenda eligendi ex exercitationem harum deleniti quaerat beatae ducimus dolor voluptates magnam, reiciendis pariatur culpa tempore quibusdam quidem, saepe eius.</p>
         </section>
-        <!--Section: About-->
+        <!--SECCIONES -->
         <div class="divider-new pt-5">
             <h2 class="h2-responsive wow fadeIn">Secciones</h2>
         </div>
-        <!--Section: Best features-->
+        <!--SECCIONES-->
         <section id="best-features">
             <div class="row pt-3">
                 <!--First columnn-->
@@ -157,7 +160,43 @@
                 <!--First columnn-->
             </div>
         </section>
-        <!--/Section: Best features-->
+        <!--/Seccion: FOTOS-->
+        <div class="divider-new">
+            <h2 class="h2-responsive wow fadeIn">Fotos</h2>
+        </div>
+
+        <section>
+            <div class="row">
+                <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 wow fadeIn" data-wow-delay="0.0s">
+                    <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid hoverable mb-4">
+                </a>
+                <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 wow fadeIn" data-wow-delay="0.2s">
+                    <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid hoverable mb-4">
+                </a>
+                <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 wow fadeIn" data-wow-delay="0.4s">
+                    <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid hoverable mb-4">
+                </a>
+            </div>
+            <div class="row">
+                <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 wow fadeIn" data-wow-delay="0.6s">
+                    <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid hoverable mb-4">
+                </a>
+                <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 wow fadeIn" data-wow-delay="0.8s">
+                    <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid hoverable mb-4">
+                </a>
+                <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 wow fadeIn" data-wow-delay="0.10s">
+                    <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid hoverable mb-4">
+                </a>
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <!--/Seccion: Contacto-->
         <div class="divider-new">
             <h2 class="h2-responsive wow fadeIn">Contacto</h2>
         </div>
@@ -166,19 +205,19 @@
             <div class="row">
                 <!--First column-->
                 <div class="col-md-8 mb-5">
-                    <div id="map-container" class="z-depth-2 wow fadeIn" style="height: 300px"></div>
+                    <div id="map-container" class="z-depth-2 wow fadeIn" style="height: 400px"></div>
                 </div>
                 <!--/First column-->
                 <!--Second column-->
                 <div class="col-md-4">
-                    <ul class="text-center list-unstyled">
-                        <li class="wow fadeIn" data-wow-delay="0.2s"><i class="fa fa-map-marker teal-text fa-lg"></i>
+                    <ul class="text-center list-unstyled mt-5">
+                        <li class="wow fadeIn" data-wow-delay="0.2s"><i class="fa fa-map-marker teal-text fa-2x"></i>
                             <p>C/José Galiay, 11, 50008 Zaragoza</p>
                         </li>
-                        <li class="wow fadeIn mt-5 pt-2" data-wow-delay="0.3s"><i class="fa fa-phone teal-text fa-lg"></i>
+                        <li class="wow fadeIn mt-5 pt-2" data-wow-delay="0.3s"><i class="fa fa-phone teal-text fa-2x"></i>
                             <p>(+34) 976 59 72 79</p>
                         </li>
-                        <li class="wow fadeIn mt-5 pt-2" data-wow-delay="0.4s"><i class="fa fa-envelope teal-text fa-lg"></i>
+                        <li class="wow fadeIn mt-5 pt-2" data-wow-delay="0.4s"><i class="fa fa-envelope teal-text fa-2x"></i>
                             <p>lasalle509@gmail.com</p>
                         </li>
                     </ul>
@@ -245,7 +284,8 @@
             <h4 class="mb-5">Material Design for Bootstrap</h4>
             <ul>
                 <li>
-                    <h5>Get our UI KIT for free</h5></li>
+                    <h5>Get our UI KIT for free</h5>
+                </li>
                 <li><a target="_blank" href="https://mdbootstrap.com/getting-started/" class="btn btn-info" rel="nofollow">Sign up!</a></li>
                 <li><a target="_blank" href="https://mdbootstrap.com/material-design-for-bootstrap/" class="btn btn-default" rel="nofollow">Learn more</a></li>
             </ul>
@@ -271,8 +311,10 @@
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <!--Google Maps-->
     <script src="https://maps.google.com/maps/api/js"></script>
-    <!--Google Maps Settings-->
+    <!--Google Maps Settings / Effects / LightBox-->
     <script type="text/javascript" src="js/google-maps-settings.js"></script>
+    <!--LigthBox JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.js"></script>
 </body>
 
 </html>

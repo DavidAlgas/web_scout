@@ -23,3 +23,9 @@ google.maps.event.addDomListener(window, 'load', init_map);
 
 // Animations' initialization
 new WOW().init();
+
+// LightBox initialization
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+});
