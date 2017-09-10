@@ -8,5 +8,5 @@ Uses a number of open source projects to work properly:
 * [Twitter Bootstrap](https://getbootstrap.com/) - Great UI boilerplate for modern web apps
 ## Link Page
 [--> Follow Me](http://lasalle509.esy.es/)
-## Licencia
+## License
 MIT
