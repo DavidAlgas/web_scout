@@ -1,5 +1,7 @@
 [![Mockup Web](https://github.com/DavidAlgas/web_scout/blob/master/img/asset.JPG)](https://github.com/DavidAlgas/web_scout/blob/master/img/asset.JPG)
-# Web Grupo Scout LaSalle 509
+# Web Grupo Scout LaSalle 509 
+[![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+[![GitHub issues](https://img.shields.io/github/issues/DavidAlgas/web_scout.svg)](https://github.com/DavidAlgas/web_scout/issues)
 ________
 ### Tech
 Uses a number of open source projects to work properly:
@@ -8,5 +10,4 @@ Uses a number of open source projects to work properly:
 * [Twitter Bootstrap](https://getbootstrap.com/) - Great UI boilerplate for modern web apps
 ## Link Page
 [--> Follow Me](http://lasalle509.esy.es/)
-## License
-MIT
+[![Link Page](https://img.shields.io/badge/Follow-link-blue.svg)](http://lasalle509.esy.es/)
