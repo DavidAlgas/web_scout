@@ -9,5 +9,4 @@ Uses a number of open source projects to work properly:
 * [Material Design](https://material.io/) - Awesome design language 
 * [Twitter Bootstrap](https://getbootstrap.com/) - Great UI boilerplate for modern web apps
 ## Link Page
-[--> Follow Me](http://lasalle509.esy.es/)
 [![Link Page](https://img.shields.io/badge/Follow-link-blue.svg)](http://lasalle509.esy.es/)
