@@ -22,7 +22,7 @@
 <body>
     <header>
         <!--Navbar-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top scrolling-navbar">
+        <nav id="myNavbar" class="navbar navbar-expand-lg navbar-light fixed-top scrolling-navbar">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
                     <img src="img/logo.png" height="40" alt="logoGrupo">
@@ -36,16 +36,16 @@
                             <a class="nav-link" href="#"><strong>Home</strong><span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><strong>Sobre Nosotros</strong></a>
+                            <a class="nav-link" href="#nosotros"><strong>Sobre Nosotros</strong></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><strong>Secciones</strong></a>
+                            <a class="nav-link" href="#secciones"><strong>Secciones</strong></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><strong>Fotos</strong></a>
+                            <a class="nav-link" href="#fotos"><strong>Fotos</strong></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><strong>Contacto</strong></a>
+                            <a class="nav-link" href="#contacto"><strong>Contacto</strong></a>
                         </li>
                     </ul>
                     <ul class="navbar-nav ml-auto nav-flex-icons">
@@ -84,7 +84,7 @@
         </section>
     </header>
     <!-- Main container-->
-    <div class="container">
+    <div id="nosotros" class="container">
         <div class="divider-new pt-5">
             <h2 class="h2-responsive wow fadeIn" data-wow-delay="0.2s">Sobre Nosotros</h2>
         </div>
@@ -94,7 +94,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit explicabo assumenda eligendi ex exercitationem harum deleniti quaerat beatae ducimus dolor voluptates magnam, reiciendis pariatur culpa tempore quibusdam quidem, saepe eius.</p>
         </section>
         <!--SECCIONES -->
-        <div class="divider-new pt-5">
+        <div id="secciones" class="divider-new pt-5">
             <h2 class="h2-responsive wow fadeIn">Secciones</h2>
         </div>
         <!--SECCIONES-->
@@ -175,7 +175,7 @@
             </div>
         </section>
         <!--/Seccion: FOTOS-->
-        <div class="divider-new">
+        <div id="fotos" class="divider-new">
             <h2 class="h2-responsive wow fadeIn">Fotos</h2>
         </div>
         <section>
@@ -203,7 +203,7 @@
             </div>
         </section>
         <!--/Seccion: Contacto-->
-        <div class="divider-new">
+        <div id="contacto" class="divider-new">
             <h2 class="h2-responsive wow fadeIn">Contacto</h2>
         </div>
         <!--Section: Contact-->
@@ -307,10 +307,12 @@
     <script src="https://maps.google.com/maps/api/js"></script>
     <!--Google Maps Settings / Effects / LightBox-->
     <script type="text/javascript" src="js/google-maps-settings.js"></script>
+    <!--Google Maps Settings / Effects / LightBox-->
+    <script type="text/javascript" src="js/Smooth-scrolling.js"></script>
     <!--LigthBox_JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.js"></script>
     <!--Google_Analytics-->
-    <script src="js/google-analytics.js"></script> 
+    <script src="js/google-analytics.js"></script>
 
 </body>
 
