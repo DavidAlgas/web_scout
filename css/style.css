@@ -30,3 +30,22 @@
 .top-nav-collapse {
     background-color: white;
 }
+
+
+/* Btn Marron */
+
+.btn-outline-pios {
+    border: 2px solid #a1887f;
+    color: #a1887f !important;
+    background-color: transparent
+}
+
+.btn-outline-pios.active,
+.btn-outline-pios:active,
+.btn-outline-pios:active:focus,
+.btn-outline-pios:focus,
+.btn-outline-pios:hover {
+    background-color: transparent;
+    color: #8d6e63;
+    border-color: #a1887f
+}
