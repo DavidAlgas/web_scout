@@ -49,3 +49,51 @@
     color: #8d6e63;
     border-color: #a1887f
 }
+
+
+/* Barra leteral Secciones */
+
+.item-lobatos {
+    color: #ffbb33;
+}
+
+.item-lobatos.active {
+    background-color: #ffbb33;
+    border-color: #ffbb33;
+}
+
+.item-tropa {
+    color: #00C851;
+}
+
+.item-tropa.active {
+    background-color: #00C851;
+    border-color: #00C851;
+}
+
+.item-pios {
+    color: #a1887f;
+}
+
+.item-pios.active {
+    background-color: #a1887f;
+    border-color: #a1887f;
+}
+
+.item-clan {
+    color: #CC0000;
+}
+
+.item-clan.active {
+    background-color: #CC0000;
+    border-color: #CC0000;
+}
+
+.item-kraal {
+    color: #0099CC;
+}
+
+.item-kraal.active {
+    background-color: #0099CC;
+    border-color: #0099CC;
+}
