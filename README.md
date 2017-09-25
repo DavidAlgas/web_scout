@@ -1,4 +1,4 @@
-[![Mockup Web](https://github.com/DavidAlgas/web_scout/blob/master/img/asset.JPG)](https://github.com/DavidAlgas/web_scout/blob/master/img/asset.JPG)
+[![Mockup Web](https://github.com/DavidAlgas/web_scout/blob/master/images/asset.JPG)](https://github.com/DavidAlgas/web_scout/blob/master/img/asset.JPG)
 # Web Grupo Scout LaSalle 509
 [![Website](https://img.shields.io/website-up-down-green-red/http/lasalle509.esy.es%2F.svg?label=Website%20Status)]()
 [![GitHub issues](https://img.shields.io/github/issues/DavidAlgas/web_scout.svg)](https://github.com/DavidAlgas/web_scout/issues)
