@@ -6,3 +6,6 @@ php_value display_errors 1
 <filesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
 Header set Cache-Control "max-age=604800, public"
 </filesMatch>
+<FilesMatch "\.(html|js|css|ico|pdf|jpg|jpeg|png|gif|php)$">
+SetOutputFilter DEFLATE
+</FilesMatch>
