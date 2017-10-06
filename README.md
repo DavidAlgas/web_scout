@@ -9,7 +9,9 @@ ________
 ### Tech
 Uses a number of open source projects to work properly:
 * [MDBootstrap](https://mdbootstrap.com/) - Powerful and free Material Design UI KIT
+* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll) - A lightweight script to animate scrolling to anchor links
 * [Material Design](https://material.io/) - Awesome design language 
 * [Twitter Bootstrap](https://getbootstrap.com/) - Great UI boilerplate for modern web apps
+
 ## Link Page
 [![Link Page](https://img.shields.io/badge/Follow-link-blue.svg)](http://lasalle509.esy.es/)
