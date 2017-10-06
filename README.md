@@ -8,6 +8,7 @@
 ________
 ### Tech
 Uses a number of open source projects to work properly:
+* [Lightbox](http://lokeshdhakar.com/projects/lightbox2/) - Small javascript library used to overlay images on top of the current page
 * [MDBootstrap](https://mdbootstrap.com/) - Powerful and free Material Design UI KIT
 * [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll) - A lightweight script to animate scrolling to anchor links
 * [Material Design](https://material.io/) - Awesome design language 
