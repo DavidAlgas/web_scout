@@ -17,12 +17,12 @@
     <meta property="og:image" content="images/favicon.ico" />
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Lightbox for Bootstrap -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.css" />
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <!-- Material Design Bootstrap -->
-    <link href="css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- Lightbox -->
+    <link rel="stylesheet" href="css/lightbox.min.css">
     <!-- Your custom styles (optional) -->
     <link href="css/style.css" rel="stylesheet">
 </head>
@@ -53,7 +53,7 @@
                             <a class="nav-link" href="#fotos"><strong>Fotos</strong></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contacto"><strong>Contacto</strong></a>
+                            <a class="nav-link" data-scroll href="#contacto"><strong>Contacto</strong></a>
                         </li>
                     </ul>
                     <ul class="navbar-nav ml-auto nav-flex-icons">
@@ -213,36 +213,36 @@
         </div>
         <section>
             <div class="row">
-                <a href="images/galeria/01.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 wow fadeIn hm-zoom" data-wow-delay="0.0s">
-                    <img src="images/galeria/011.jpg" class="img-fluid z-depth-5 mb-4" style="width: 414px; height: 217px;">
+                <a href="images/galeria/01.jpg" data-lightbox="galeria" class="col-sm-4 wow fadeIn hm-zoom" data-wow-delay="0.2s">
+                    <img src="images/galeria/011.jpg" class="img-fluid z-depth-5 mb-4" style="width: 414px; height: 217px;"/>
                 </a>
-                <a href="images/galeria/02.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 wow fadeInDown hm-zoom" data-wow-delay="0.2s">
-                    <img src="images/galeria/022.jpg" class="img-fluid z-depth-5 mb-4" style="width: 414px; height: 217px;">
+                <a href="images/galeria/02.jpg" data-lightbox="galeria" class="col-sm-4 wow fadeInDown hm-zoom" data-wow-delay="0.4s">
+                    <img src="images/galeria/022.jpg" class="img-fluid z-depth-5 mb-4" style="width: 414px; height: 217px;"/>
                 </a>
-                <a href="images/galeria/03.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 wow fadeInLeft hm-zoom" data-wow-delay="0.4s">
-                    <img src="images/galeria/033.jpg" class="img-fluid z-depth-5 mb-4" style="width: 414px; height: 217px;">
-                </a>
-            </div>
-            <div class="row">
-                <a href="images/galeria/04.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 wow fadeInUp hm-zoom" data-wow-delay="0.6s">
-                    <img src="images/galeria/044.jpg" class="img-fluid z-depth-5 mb-4" style="width: 414px; height: 217px;">
-                </a>
-                <a href="images/galeria/05.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 wow fadeInRight hm-zoom" data-wow-delay="0.8s">
-                    <img src="images/galeria/055.jpg" class="img-fluid z-depth-5 mb-4" style="width: 414px; height: 217px;">
-                </a>
-                <a href="images/galeria/06.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 wow fadeIn hm-zoom" data-wow-delay="0.10s">
-                    <img src="images/galeria/066.jpg" class="img-fluid z-depth-5 mb-4" style="width: 414px; height: 217px;">
+                <a href="images/galeria/03.jpg" data-lightbox="galeria" class="col-sm-4 wow fadeInLeft hm-zoom" data-wow-delay="0.6s">
+                    <img src="images/galeria/033.jpg" class="img-fluid z-depth-5 mb-4" style="width: 414px; height: 217px;"/>
                 </a>
             </div>
             <div class="row">
-                <a href="images/galeria/07.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 wow fadeInLeftBig hm-zoom" data-wow-delay="0.12s">
-                    <img src="images/galeria/077.jpg" class="img-fluid z-depth-5 mb-4" style="width: 414px; height: 217px;">
+                <a href="images/galeria/04.jpg" data-lightbox="galeria" class="col-sm-4 wow fadeInUp hm-zoom" data-wow-delay="0.8s">
+                    <img src="images/galeria/044.jpg" class="img-fluid z-depth-5 mb-4" style="width: 414px; height: 217px;"/>
                 </a>
-                <a href="images/galeria/08.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 wow fadeInRightBig hm-zoom" data-wow-delay="0.14s">
-                    <img src="images/galeria/088.jpg" class="img-fluid z-depth-5 mb-4" style="width: 414px; height: 217px;">
+                <a href="images/galeria/05.jpg" data-lightbox="galeria" class="col-sm-4 wow fadeInRight hm-zoom" data-wow-delay="0.10s">
+                    <img src="images/galeria/055.jpg" class="img-fluid z-depth-5 mb-4" style="width: 414px; height: 217px;"/>
                 </a>
-                <a href="images/galeria/09.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 wow fadeInDownBig hm-zoom" data-wow-delay="0.16s">
-                    <img src="images/galeria/099.jpg" class="img-fluid z-depth-5 mb-4" style="width: 414px; height: 217px;">
+                <a href="images/galeria/06.jpg" data-lightbox="galeria" class="col-sm-4 wow fadeIn hm-zoom" data-wow-delay="0.12s">
+                    <img src="images/galeria/066.jpg" class="img-fluid z-depth-5 mb-4" style="width: 414px; height: 217px;"/>
+                </a>
+            </div>
+            <div class="row">
+                <a href="images/galeria/07.jpg" data-lightbox="galeria" class="col-sm-4 wow fadeInLeftBig hm-zoom" data-wow-delay="0.14s">
+                    <img src="images/galeria/077.jpg" class="img-fluid z-depth-5 mb-4" style="width: 414px; height: 217px;"/>
+                </a>
+                <a href="images/galeria/08.jpg" data-lightbox="galeria" class="col-sm-4 wow fadeInRightBig hm-zoom" data-wow-delay="0.16s">
+                    <img src="images/galeria/088.jpg" class="img-fluid z-depth-5 mb-4" style="width: 414px; height: 217px;"/>
+                </a>
+                <a href="images/galeria/09.jpg" data-lightbox="galeria" class="col-sm-4 wow fadeInDownBig hm-zoom" data-wow-delay="0.18s">
+                    <img src="images/galeria/099.jpg" class="img-fluid z-depth-5 mb-4" style="width: 414px; height: 217px;"/>
                 </a>
             </div>
         </section>
@@ -255,7 +255,9 @@
             <div class="row">
                 <!--First column-->
                 <div class="col-md-8 mb-5">
-                    <div id="map-container" class="z-depth-2 wow fadeInUp" style="height: 400px"></div>
+                    <div class="z-depth-2 wow fadeInUp embed-responsive embed-responsive-16by9">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3546.039294343548!2d-0.8708598807449235!3d41.637336191179436!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xab73a6f8b49475c1!2sGrupo+Scout+La+Salle509!5e0!3m2!1ses!2ses!4v1507395869143" width="730" height="400" allowfullscreen></iframe>
+                    </div>
                 </div>
                 <!--/First column-->
                 <!--Second column-->
@@ -351,11 +353,11 @@
                         <li><a href="https://www.youtube.com/user/509lasalle/featured" target="_blank">Youtube</a></li>
                     </ul>
                 </div>
-                <!--/.Fourth column-->
+                <!-- /.Fourth column -->
             </div>
         </div>
-        <!--/.Footer Links-->
-        <!--Copyright-->
+        <!-- /.Footer Links -->
+        <!-- Copyright -->
         <div class="footer-copyright">
             <div class="container-fluid">
                 <p>Made with <a href="https://mdbootstrap.com/" target="_blank">❤</a> by <a href="https://www.linkedin.com/in/davidalgascalavia/" target="_blank">David Algás</a> &amp; <a href="https://www.linkedin.com/in/guillermo-fanlo-zarazaga-7a7752145/" target="_blank">Guillermo Fanlo</a></p>
@@ -363,7 +365,7 @@
         </div>
         <!--/.Copyright-->
     </footer>
-    <!--/.Footer-->
+    <!-- /.Footer -->
     <!-- SCRIPTS -->
     <!-- JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -373,12 +375,16 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
-    <!--Google Maps-->
-    <script src="https://maps.google.com/maps/api/js"></script>
-    <!--Google Maps Settings / Effects / LightBox-->
+    <!-- Google Maps -->
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWfs0yZY2Ku6s8GGy_P2aJ3WPoghJo8g0&callback=initMap"></script>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106131459-1"></script>
+    <!-- LigthBox -->
+    <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+    <!-- Smooth Scroll  -->
+    <script type="text/javascript" src="js/smooth-scroll.polyfills.min.js"></script>
+    <!-- Animation | Google Analytics | Google Maps  -->
     <script type="text/javascript" src="js/miscellaneous.js"></script>
-    <!--LigthBox_JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.js"></script>
 
 </body>
 
