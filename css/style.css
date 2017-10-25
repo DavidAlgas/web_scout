@@ -97,3 +97,27 @@
     background-color: #0099CC;
     border-color: #0099CC;
 }
+
+/* Carousel*/
+
+.carousel,
+.carousel-item,
+.carousel-inner,
+.active {
+    height: 100%;
+}
+
+/*Caption*/
+
+.flex-center {
+    color: #fff;
+}
+
+@media (min-width: 776px) {
+    .carousel .view ul li {
+        display: inline;
+    }
+    .carousel .view .full-bg-img ul li .flex-item {
+        margin-bottom: 1.5rem;
+    }
+}
