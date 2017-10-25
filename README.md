@@ -21,4 +21,4 @@ Uses a number of open source projects to work properly:
 
 ## License
 
-**[MIT](LICENSE)**
+**[MIT](LICENSE.md)**
