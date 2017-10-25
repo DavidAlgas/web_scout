@@ -5,10 +5,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 [![Mockup Web](https://github.com/DavidAlgas/web_scout/blob/master/images/asset.JPG)](https://github.com/DavidAlgas/web_scout/blob/master/img/asset.JPG)
-# Web Grupo Scout LaSalle 509
 
-
-________
 ## Tech
 Uses a number of open source projects to work properly:
 * [WOW.js](http://mynameismatthieu.com/WOW/) - Reveal CSS animation as you scroll down a page
@@ -21,3 +18,7 @@ Uses a number of open source projects to work properly:
 
 ## Link Page
 [![Link Page](https://img.shields.io/badge/Follow-link-blue.svg)](http://lasalle509.esy.es/)
+
+## License
+
+**[MIT](LICENSE)**
